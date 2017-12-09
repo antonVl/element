@@ -2,7 +2,6 @@
   <div class="el-date-panel">
       <date-panel
           style="display: block"
-          @pick="log"
 
       ></date-panel>
   </div>
@@ -15,11 +14,6 @@ export default {
   name: 'ElDatePanel',
   components: {
     DatePanel
-  },
-  methods: {
-    log(val) {
-      console.log(val);
-    }
   }
 };
 </script>
